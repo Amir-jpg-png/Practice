@@ -1,0 +1,22 @@
+#submit{
+    width: 200px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#submit:active{
+    scale: 0.95;
+}
+
+#todoList{
+}
+#popup{
+    display: none;
+}
+
+#tasks{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+

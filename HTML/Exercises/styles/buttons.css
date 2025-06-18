@@ -1,0 +1,229 @@
+button{
+    cursor: pointer;
+}
+.subscribe{
+    background-color: rgb(204,0,0);
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.subscribe:hover{
+    opacity: 0.8;
+}
+.subscribe:active{
+    opacity: 0.5;
+}
+.join{
+    border: 1px solid rgb(6, 95, 212);
+    color: rgb(6, 95, 212);
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s, color 0.15s;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+
+}
+.join:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+.join:active{
+    opacity: 0.7;
+}
+.tweet{
+    color: white;
+    background-color: rgb(2, 158, 255);
+    border: 0px solid;
+    border-radius: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+.tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+/*Exercises*/
+.uber{
+    background-color: black;
+    color: white;
+    border: 0px solid;
+    height: 35px;
+    width: 100px;
+}
+.uber:hover{
+    opacity: 0.8;
+}
+.amazon{
+    background-color: rgb(255, 216, 20);
+    height: 35px;
+    width: 110px;
+    border: 0px;
+    border-radius: 17px;
+    trans
+}
+.amazon:hover{
+    background-color: rgb(235, 197, 8);
+}
+.GitHub{
+    background-color: rgb(46, 164, 79);
+    width: 75px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 90%;
+    transition: box-shadow 0.15s;
+}
+.GitHub:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.bootsrap{
+    background-color: rgb(121, 82, 179);
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 90px;
+    font-size: 80%;
+}
+.bootsrap:hover{
+    background-color: rgb(121, 82, 150);
+}
+.bootsrap2{
+    border: 1px solid rgb(108, 117, 125);
+    color: rgb(108, 117, 125);
+    background-color: white;
+    transition: background-color 0.15s, color 0.15s;
+}
+.bootsrap2:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+.linkedlin_apply{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(10, 102, 194);
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+.linkedlin_apply:hover{
+    background-color: rgb(10, 60, 134);
+}
+.linkedlin_save{
+    width: 66.66px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 33.33px;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+}
+.linkedlin_save:hover{
+    border: 3px solid ;
+    background-color: rgba(10, 102, 194, 0.3);
+}
+/*Challenge 2*/
+.link{
+    color: rgb(0, 113, 133);
+}
+.link:hover{
+    color: darkorange;
+}
+.price{
+    font-weight: bold;
+    color: rgb(0, 118, 0);
+}
+.amazon:active{
+    opacity: 0.6;
+}
+.amazon2{
+    font-weight: bold;
+     background-color: rgb(255, 164, 28);
+}
+.amazon2:hover{
+    background-color: rgb(236, 145, 9);
+}
+.stretch{
+    background-color: green;
+    color: white;
+    border: none;
+    transition: padding 1s;
+}
+.stretch:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.one{
+    background-color: green;
+    color: white;
+    border: none;
+    transition: padding 1s;
+    margin-right: 5px;
+}
+.one:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.two{
+    background-color: green;
+    color: white;
+    border: none;
+    transition: padding 1s;
+    margin-right: 8px;
+}
+.two:hover{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.three{
+    background-color: green;
+    color: white;
+    border: none;
+    transition: padding 1s;
+}
+.three:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.shadow{
+    background-color: green;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.shadow:active{
+    box-shadow: 0 0 0 0;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+a{
+    margin-right: 10px;
+}
+.back{
+    margin-right: 10px;
+}

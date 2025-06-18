@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.display {
+    grid-column: span 4;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #888;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #aaa;
+}
+
+.wide {
+    grid-column: span 2; /* Button "0" nimmt 2 Spalten ein */
+    border-radius: 30px; /* Abgerundete Ecken, keine perfekte Kreisform */
+    width: auto; /* Breite passt sich an den Inhalt an */
+}
+
+.full-width {
+    grid-column: span 4; /* Button "=" nimmt 4 Spalten ein */
+    border-radius: 30px; /* Abgerundete Ecken */
+    width: auto; /* Breite passt sich an den Inhalt an */
+}
+
+#divide, #multiply, #add, #subtract, #equals, #clear {
+    background-color: #1ab29a; /* Grüne Buttons für Operatoren */
+}
+
+#divide:hover, #multiply:hover, #add:hover, #subtract:hover, #equals:hover, #clear:hover {
+    background-color: #63e5ca; /* Hellgrün bei Hover */
+}

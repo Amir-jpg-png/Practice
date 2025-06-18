@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox exercises</title>
+    <style>
+        p{
+            margin: 7px;
+            font-family: Arial;
+            padding: 0;
+        }
+        .number{
+            border: 0px solid;
+            border-radius: 10px;
+            background-color: rgb(0, 81, 255);
+            color: white;
+            font-weight: 600;
+        }
+        .outerdiv{
+            width: 300px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 4px 10px 4px 10px;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(156, 0, 181);
+        }
+        .home{
+            flex: 2;
+            color: white;
+            font-weight: bold;
+        }
+        .search{
+            flex: 1;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .Download{
+            flex: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="outerdiv">
+        <div class="content">
+            <p>
+                Home
+            </p>
+            <button class="number">
+                14
+            </button>
+        </div>
+        <div class="content">
+            <p>
+                Notifications
+            </p>
+            <button class="number">
+                3
+            </button>
+        </div>
+        <div class="content">
+            <p>
+                Messages
+            </p>
+            <button class="number">
+                5
+            </button>
+        </div>
+    </div>
+
+
+    <div class="header">
+        <div class="home">
+            Home
+        </div>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="search">
+    </div>
+    <div class="Download">
+        <button>
+            Download
+        </button>
+    </div>
+</body>
+</html>

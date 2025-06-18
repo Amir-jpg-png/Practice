@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+span{
+    text-align: left;
+}

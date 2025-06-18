@@ -1,0 +1,81 @@
+p{
+    font-family: Arial;
+}
+.video-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.video-stats{
+    margin-top: 5px;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    width: 270px;
+}
+.apple-text{
+    margin-top: 100px;
+    background-color: rgb(227, 65, 64);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 14px;
+}
+.shop{
+    margin-left: 6px;
+}
+.shop:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*Exercises*/
+.tahoma{
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 30px;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.span{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}
+.span a{
+    color: rgb(53, 130, 255);
+    text-decoration: none;
+}
+.sales{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.htmlcourse{
+    font-family: Verdana;
+    margin-bottom: 0px;
+}
+.htmlbeginner{
+    font-weight: bold;
+    color: rgb(147, 147, 147);
+    margin-bottom: 100px;
+}
+.getstarted{
+    margin-top: 15px;
+    border: 0px solid;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(22, 111, 0);
+    color: white;
+}

@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>
+            image and input practice
+        </title>
+        <style>
+            .pic{
+            width: 200px;
+            /*border-radius: 10px
+            */
+            height: 200px;
+            object-fit: cover;                
+            object-position: center;
+            border-radius: 100%;
+            }
+            .textbox-1{
+                border-radius: 5px;
+                border: 2px solid lightgray;
+                padding: 7px;
+            }
+            .textbox-2{
+                width: 500px;
+                border-radius: 15px;
+                border: none;
+                box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+                padding: 6px;
+            }
+            .linkedlin{
+                font-family: Arial, Helvetica, sans-serif;
+                color: gray;
+                font-size: 13px;
+            }
+            .linkedlin input{
+                border: 2px solid gray;
+                border-radius: 3px;
+                width: 330px;
+            }
+            .linkedlin button{
+                color: white;
+                background-color: rgba(29, 90, 212, 0.9);
+                padding-right: 50px;
+                padding-left: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: 0px;
+                border-radius: 20px;
+            }
+            .textboxblock{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="/thumbnails/thumbnail-2.webp" class="pic">
+        <input class="textbox-1" type="text" placeholder="Search">
+        <br>
+        <br>
+        <input type="text" class="textbox-2" placeholder="Search Google or type a URL">
+        <br>
+        <br>
+        <span class="linkedlin">
+            Email
+            <br>
+            <input type="email">
+            <br>
+            <br>
+            By clicking Agree & Join, you agree to the Privacy Policy
+            <br>
+            <br>
+            <button>
+                Agree & Join
+            </button>
+        </span>
+
+        <input type="text" placeholder="Name" class="textboxblock">
+        <input type="text" placeholder="Email">
+
+    </body>
+</html>

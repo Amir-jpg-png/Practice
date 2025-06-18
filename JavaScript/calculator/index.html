@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display"></div>
+        <button id="seven" onclick="updateDisplay(7)">7</button>
+        <button id="eight" onclick="updateDisplay(8)">8</button>
+        <button id="nine" onclick="updateDisplay(9)">9</button>
+        <button id="divide" onclick="updateDisplay('/')">/</button>
+        <button id="six" onclick="updateDisplay(6)">6</button>
+        <button id="five" onclick="updateDisplay(5)">5</button>
+        <button id="four" onclick="updateDisplay(4)">4</button>
+        <button id="multiply" onclick="updateDisplay('*')">x</button>
+        <button id="one" onclick="updateDisplay(1)">1</button>
+        <button id="two" onclick="updateDisplay(2)">2</button>
+        <button id="three" onclick="updateDisplay(3)">3</button>
+        <button id="subtract" onclick="updateDisplay('-')">-</button>
+        <button id="zero" class="wide" onclick="updateDisplay(0)">0</button>
+        <button id="comma" onclick="updateDisplay('.')">,</button>
+        <button id="add" onclick="updateDisplay('+')">+</button>
+        <button id="equals" class="wide" onclick="calculate()">=</button>
+        <button id="clear" class="wide" onclick="clearDisplay()">Clear</button>
+    </div>
+</body>
+</html>
